@@ -48,7 +48,7 @@ end
 
 if not isfile("hexagon/custom_skins.txt") then
 	print("downloading hexagon custom skins file")
-	writefile("hexagon/custom_skins.txt", game:HttpGet("https://raw.githubusercontent.com/Pawel12d/hexagon/main/scripts/default_data/custom_skins.txt"))
+	writefile("hexagon/custom_skins.txt", game:HttpGet("https://raw.githubusercontent.com/catvskid/hexagoncb/main/scripts/default_data/custom_skins.txt"))
 end
 
 if not isfile("hexagon/custom_models.txt") then
@@ -58,12 +58,12 @@ end
 
 if not isfile("hexagon/inventories.txt") then
 	print("downloading hexagon inventories file")
-	writefile("hexagon/inventories.txt", game:HttpGet("https://raw.githubusercontent.com/Pawel12d/hexagon/main/scripts/default_data/inventories.txt"))
+	writefile("hexagon/inventories.txt", game:HttpGet("https://raw.githubusercontent.com/catvskid/hexagoncb/main/scripts/default_data/inventories.txt"))
 end
 
 if not isfile("hexagon/skyboxes.txt") then
 	print("downloading hexagon skyboxes file")
-	writefile("hexagon/skyboxes.txt", game:HttpGet("https://raw.githubusercontent.com/Pawel12d/hexagon/main/scripts/default_data/skyboxes.txt"))
+	writefile("hexagon/skyboxes.txt", game:HttpGet("https://raw.githubusercontent.com/catvskid/hexagoncb/main/scripts/default_data/skyboxes.txt"))
 end
 
 Hint.Text = "Hexagon | Loading..."
