@@ -1,5 +1,5 @@
 --[[
-Made by Pawel12d#0272
+reup
 --]]
 
 local Hint = Instance.new("Hint", game.CoreGui)
